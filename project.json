@@ -7,6 +7,7 @@
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.PDF.Activities": "[3.9.0-preview]",
     "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.8.2-preview]",
     "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
@@ -40,7 +41,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "abd18e7e-f51c-4831-bf16-432c6cc6fa83",
+        "testCaseType": "TestCase",
+        "fileName": "TC_ReadEmailAndDownloadAttachments.xaml"
+      }
+    ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
